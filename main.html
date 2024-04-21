@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Pedra | papel | tesoura)</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="novojogo()">
+    <div class="container">
+        <h1>Pedra Papel e Tesoura</h1>
+        <div class="board">
+            <p><i class="fas fa-user"></i> <span id="score_a"></span></p>
+            <p><i class="fas fa-computer"></i> <span id="score_b"></span></p>
+            <button class="btn" onclick="novojogo()">Novo Jogo</button>
+        </div>
+    </div>
+    <div class="game_container">
+        <div id="pedra" onclick="pickoption(1)">
+            <img src="https://cdn4.iconfinder.com/data/icons/font-awesome-regular/512/hand-rock-256.png" alt="">
+            <span>Pedra</span>
+        </div>
+
+        <div id="papel" onclick="pickoption(2)">
+            <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/hand-stop-o-512.png" alt="">
+            <span>papel</span>
+        </div>
+
+        <div id="tesoura" onclick="pickoption(3)">
+            <img src="https://cdn3.iconfinder.com/data/icons/font-awesome-regular-1/512/hand-scissors-256.png" alt="">
+            <span>tesoura</span>
+        </div>
+
+        
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
