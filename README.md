@@ -2,13 +2,13 @@
 
  um jogo feito em `html`, `css` e `javascript`, onde voce é o jogador principal e ira competir com a maquina.
  <br><br>
+ 
  ## Como Jogar
 
 1. Abra o arquivo `main.html` em um navegador web.
 2. Clique em um dos botões para escolher entre pedra, papel ou tesoura.
 3. O computador escolherá aleatoriamente uma opção.
 4. O resultado da rodada será exibido na tela.
-
 ## Regras do Jogo
 
 - Pedra vence Tesoura
