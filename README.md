@@ -15,7 +15,7 @@
 - Tesoura vence Papel
 - Papel vence Pedra
 
-Divirta-se jogando
+Divirta-se jogando! 🎮
 
 ### 👨‍💻 Desenvolvedor
 
