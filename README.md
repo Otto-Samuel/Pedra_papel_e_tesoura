@@ -1,6 +1,6 @@
  <h1 align="center">jogo de pedra, papel e tesoura</h1>
 
- um jogo feito em `html`, `css` e `javascript`, onde voce é o jogador principal e ira competir com a maquina
+ um jogo feito em `html`, `css` e `javascript`, onde voce é o jogador principal e ira competir com a maquina.
  <br><br>
  
  ## Como Jogar
